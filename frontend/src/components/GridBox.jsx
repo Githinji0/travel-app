@@ -3,66 +3,61 @@ import gridImage2 from "../assets/images/slider-image-2.jpeg";
 import gridImage3 from "../assets/images/grid-pic-7.jpeg";
 import gridImage4 from "../assets/images/grid-pic-2.jpeg";
 import { Button } from "./Button";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 export const GridBox = () => {
   return (
-    <motion.div 
-    initial={{ opacity: 0, y: 80 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 1, ease: "easeOut" }}
-    animate={{ opacity: 1, y: 0 }}
-    
-    
-    className="grid-container">
-      <div
-        className=" rounded-sm mr-1 transition-transform duration-300 hover:scale-105 shadow-sm"
-        style={{
-          gridArea: "box-1",
-          maxWidth: "540px",
-          marginRight: "20px",
-          backgroundImage: `url(${gridImage2})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <Button text="Tokyo" link="/destinations/tokyo" />
+    <motion.div
+      initial={{ opacity: 0, y: 80 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, ease: "easeOut" }}
+      viewport={{ once: true }}
+      className="grid gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:max-w-[50%] bg-slate-500 w-full p-2"
+    >
+
+      <div className="grid grid-rows-2 gap-3 w-full">
+
+        <div
+          className="relative rounded-md overflow-hidden transition-transform duration-300 hover:scale-105 shadow-md bg-cover bg-center h-56 sm:h-64 md:h-72 lg:h-96"
+          style={{
+            backgroundImage: `url(${gridImage2})`,
+          }}
+        >
+          <Button text="Tokyo" link="/destinations/tokyo" />
+        </div>
+
+
+        <div className="grid grid-cols-2 gap-3 w-full">
+          <div
+            className="relative rounded-md overflow-hidden transition-transform duration-300 hover:scale-105 shadow-md bg-cover bg-center h-44 sm:h-52 md:h-56 lg:h-full"
+            style={{
+              backgroundImage: `url(${gridImage3})`,
+            }}
+          >
+            <Button text="London" link="/destinations/london" />
+          </div>
+
+          <div
+            className="relative rounded-md overflow-hidden transition-transform duration-300 hover:scale-105 shadow-md bg-cover bg-center h-44 sm:h-52 md:h-56 lg:h-full"
+            style={{
+              backgroundImage: `url(${gridImage4})`,
+            }}
+          >
+            <Button text="Brazil" link="/destinations/brazil" />
+          </div>
+        </div>
       </div>
-      <div
-        className="rounded-sm ml-2 transition-transform duration-300 hover:scale-105 shadow-sm"
-        style={{
-          gridArea: "box-2",
-          maxWidth: "550px",
-          backgroundImage: `url(${gridImage1})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <Button  text="Africa" link="/destinations/africa" />
-      </div>
-      <div
-        className=" rounded-sm transition-transform duration-300 hover:scale-105 shadow-sm"
-        style={{
-          gridArea: "box-3",
-          maxWidth: "300px",
-          backgroundImage: `url(${gridImage3})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <Button text="London" link="/destinations/tokyo" />
-      </div>
-      <div
-        className="rounded-sm transition-transform duration-300 hover:scale-105 shadow-sm"
-        style={{
-          gridArea: "box-4",
-          maxWidth: "220px",
-          backgroundImage: `url(${gridImage4})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <Button text="Brazil" link="/destinations/brazil" />
+
+
+      <div className="w-full h-full">
+        <div
+          className="relative rounded-md overflow-hidden transition-transform duration-300 hover:scale-105 shadow-md bg-cover bg-center h-72 sm:h-80 md:h-full lg:h-full"
+          style={{
+            backgroundImage: `url(${gridImage1})`,
+          }}
+        >
+          <Button text="Africa" link="/destinations/africa" />
+        </div>
       </div>
     </motion.div>
   );

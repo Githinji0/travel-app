@@ -23,11 +23,11 @@ const Home = () => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="w-full  flex flex-col justify-center items-center gap-0"
+        className="w-full  flex flex-col justify-center items-center gap-0 px-2"
       >
-        <div className="min-w-full flex justify-center items-center z-10">
+        <div className="min-w-full flex justify-center items-center z-1">
           <div
-            className="max-w-[1300px] h-[600px] relative flex items-center justify-center bg-cover bg-center rounded-lg shadow-lg flex-col z-10"
+            className="max-w-[1300px] w-full h-[500px] relative flex items-center justify-center bg-cover bg-center rounded-lg shadow-lg flex-col z-1"
             style={{
               backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url(${sliderImages[0]})`,
             }}
