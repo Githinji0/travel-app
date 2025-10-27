@@ -11,7 +11,7 @@ export const TourCard = ({ tour }) => {
         <Button text={tour.title} link="/tours" />
       </div>
       <div style={{
-        backgroundImage: `url(${tour.image})`,
+        backgroundImage: `url(${tour.image_url})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         height: '170px',

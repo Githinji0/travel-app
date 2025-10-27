@@ -8,6 +8,11 @@ const Navbar = () => {
   const [isToursOpen, setIsToursOpen] = useState(false);
   const dropdownRef = useRef(null);
   const toursDropdownRef = useRef(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const handleMobileMenuToggle = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   const navItems = [
     { name: 'Home', path: '/' },
@@ -33,7 +38,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-[#2E2E2E] mt-7 shadow-lg w-[1180px] mx-auto rounded-lg text-white mb-5">
+    <nav className="bg-[#2E2E2E] mt-7 shadow-lg max-w-[1180px] mx-auto rounded-lg text-white mb-5 lg:block sm:hidden">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="text-2xl font-allan text-pink-600 hover:text-white transition-colors">
@@ -138,14 +143,52 @@ const Navbar = () => {
             </div>
           </div>
           
-          {/* Mobile menu button */}
-          <div className="md:hidden">
-            <button className="text-gray-700 hover:text-blue-600">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
+          {/* Mobile button */}
+          <div className="md:hidden sm:block">
+            <button onClick={handleMobileMenuToggle} className="text-white hover:text-pink-600">
+              {isMobileMenuOpen ? (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              ) : (
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              )}
             </button>
           </div>
+
+          {/* Mobile Menu */}
+          {isMobileMenuOpen && (
+            <div className="absolute top-[15%] right-0 w-[70%] bg-[#2E2E2E] md:hidden z-5000">
+              <div className="flex flex-col p-4 space-y-2">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.name}
+                    to={item.path}
+                    className="text-white py-2"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+                <Link
+                  to="/destinations"
+                  className="text-white py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  All Destinations
+                </Link>
+                <Link
+                  to="/tours"
+                  className="text-white py-2"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  All Tours
+                </Link>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </nav>

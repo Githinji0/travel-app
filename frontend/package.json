@@ -12,6 +12,7 @@
   "dependencies": {
     "@fontsource/allan": "^5.2.7",
     "@fortawesome/fontawesome-free": "^7.1.0",
+    "cors": "^2.8.5",
     "embla-carousel-autoplay": "^8.6.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.23.22",

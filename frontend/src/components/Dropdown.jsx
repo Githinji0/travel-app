@@ -7,7 +7,7 @@ import { IoCalendarOutline, IoLocationOutline } from 'react-icons/io5';
 export const Dropdown = ({ months, travelTypes, text }) => {
 
   return (
-    <div className="flex bg-slate-50 rounded-lg border-[1px] border-pink-600 justify-center items-center h-[50px]">
+    <div className="flex bg-slate-50 rounded-lg border-[1px] border-pink-600 justify-center items-center h-[50px] min-w-[300px] lg:min-w-[200px]">
         {
             months ? <IoCalendarOutline className="text-pink-600 mx-2" size={24} /> : <FaPlane className="text-pink-600 mx-2" size={24} />
         }

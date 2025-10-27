@@ -19,7 +19,7 @@ export const GridBox = () => {
         className=" rounded-sm mr-1 transition-transform duration-300 hover:scale-105 shadow-sm"
         style={{
           gridArea: "box-1",
-          width: "540px",
+          maxWidth: "540px",
           marginRight: "20px",
           backgroundImage: `url(${gridImage2})`,
           backgroundSize: "cover",
@@ -32,7 +32,7 @@ export const GridBox = () => {
         className="rounded-sm ml-2 transition-transform duration-300 hover:scale-105 shadow-sm"
         style={{
           gridArea: "box-2",
-          width: "550px",
+          maxWidth: "550px",
           backgroundImage: `url(${gridImage1})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -44,7 +44,7 @@ export const GridBox = () => {
         className=" rounded-sm transition-transform duration-300 hover:scale-105 shadow-sm"
         style={{
           gridArea: "box-3",
-          width: "300px",
+          maxWidth: "300px",
           backgroundImage: `url(${gridImage3})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
@@ -56,7 +56,7 @@ export const GridBox = () => {
         className="rounded-sm transition-transform duration-300 hover:scale-105 shadow-sm"
         style={{
           gridArea: "box-4",
-          width: "220px",
+          maxWidth: "220px",
           backgroundImage: `url(${gridImage4})`,
           backgroundSize: "cover",
           backgroundPosition: "center",

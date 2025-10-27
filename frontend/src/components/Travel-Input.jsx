@@ -29,7 +29,7 @@ export const TravelInput = () => {
   const travelTypes = ["Adventure", "Relaxation", "Cultural", "Wildlife"];
 
   return (
-    <div className="bg-[#2E2E2E] p-4 rounded-lg shadow-lg w-[1180px] h-[100px] mt-5 flex  justify-between gap-5 items-center">
+    <div className="bg-[#2E2E2E] p-4 rounded-lg shadow-lg max-w-[1180px] min-h-[100px] mt-5 flex  justify-between gap-5 items-center flex-col lg:flex-row">
       <div className="flex bg-slate-50 rounded-lg border-[1px] border-pink-600 justify-evenly items-center w-[300px] h-[50px]">
         <FaMapMarkerAlt className="text-pink-600 mx-2" size={24} />
         <input

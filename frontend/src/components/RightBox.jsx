@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import { Button } from "./Button";
+import { Link } from "react-router-dom";
+
 export const RightBox = () => {
   return (
     <motion.div
@@ -7,17 +9,17 @@ export const RightBox = () => {
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
       viewport={{ once: true, amount: 0.3 }}
-      className="w-[100%] flex justify-center items-start flex-col gap-6"
+      className=" flex justify-center items-start flex-col gap-6  w-full"
     >
-      <h3 className="text-lg border-pink-600 font-semibold border-l-2 pl-2 text-[#2E2E2E]">
+      <h3 className="text-lg border-pink-600 lg:text-xl font-semibold border-l-2 pl-2 text-[#2E2E2E]">
         About Us
       </h3>
 
-      <h1 className="text-2xl font-bold text-pink-600 font-allan ">
+      <h1 className="text-xl lg:text-2xl font-bold text-pink-600 font-allan ">
         Discover Your Next Adventure
       </h1>
 
-      <p className="text-[#2E2E2E]">
+      <p className="text-[#2E2E2E] text-sm lg:text-base max-w-md">
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia, there live the blind texts. Separated they live in
         Bookmarksgrove right at the coast of the Semantics, a large language
@@ -28,7 +30,7 @@ export const RightBox = () => {
         unorthographic. Italic Mountains, she had a last view back on the
         skyline
       </p>
-      <Button text="Read More" />
+      <Button text="Read More" link="/about" />
     </motion.div>
   );
 };

@@ -25,18 +25,18 @@ const Home = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
         className="w-full  flex flex-col justify-center items-center gap-0"
       >
-        <div className="min-w-full flex justify-center items-center">
+        <div className="min-w-full flex justify-center items-center z-10">
           <div
-            className="w-[1300px] h-[600px] relative flex items-center justify-center bg-cover bg-center rounded-lg shadow-lg flex-col"
+            className="max-w-[1300px] h-[600px] relative flex items-center justify-center bg-cover bg-center rounded-lg shadow-lg flex-col z-10"
             style={{
               backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url(${sliderImages[0]})`,
             }}
           >
-            <h1 className="text-white text-4xl font-bold z-10">
+            <h1 className="text-white lg:text-4xl sm:text-3xl font-bold z-10 tracking-wider">
               Explore the <span className="bg-pink-600 w-[120px]">World</span>{" "}
               with Us
             </h1>
-            <p className="text-white mt-4 z-10 max-w-xl text-center">
+            <p className="text-white mt-4 z-10 max-w-xl text-center lg:text-lg sm:text-sm">
               Discover breathtaking destinations and unforgettable experiences.A
               journey of a thousand miles begins with a single step. Experience
               the beauty of the world like never before.
@@ -46,15 +46,15 @@ const Home = () => {
         <TravelInput />
       </motion.section>
       <section>
-        <div className="bg-[#EFE9EB]p-4 rounded-lg shadow-lg w-[1180px] flex  justify-between gap-5 items-center mt-10">
+        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px] flex flex-col lg:flex-row justify-between gap-5 items-center mt-10">
           <motion.div
             initial={{ opacity: 0, y: 80 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.3 }}
-            className="w-[50%] flex justify-center items-center"
+            className="flex justify-center items-center"
           >
-            <img src={aboutImage} alt="About Us" />
+            <img src={aboutImage} alt="About Us" className="w-[70%] lg:w-[100%]" />
           </motion.div>
 
           <motion.div
@@ -62,7 +62,7 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
             viewport={{ once: true, amount: 0.3 }}
-            className="w-[50%]"
+            className=""
           >
             <RightBox />
           </motion.div>
@@ -80,7 +80,7 @@ const Home = () => {
             <h2 className="text-1xl font-bold text-[#2E2E2E]  mb-4 items-start border-l-2 pl-2 border-pink-600">
               Amaizing destinations
             </h2>
-            <h1 className="text-2xl font-bold text-pink-600 font-allan mb-4">
+            <h1 className="text-xl lg:text-2xl font-bold text-pink-600 font-allan mb-4">
               Explore the world's most beautiful places with our curated travel
             </h1>
           </motion.div>
