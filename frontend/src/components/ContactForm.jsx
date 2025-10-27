@@ -1,6 +1,7 @@
 import { FaPhone, FaAddressBook, FaMailBulk, FaUser } from "react-icons/fa"
 import ContactInput from "./ContactInput"
 
+
 const ContactForm = () => {
     const inputDetails = [{
         text: `Full name..`,
@@ -40,3 +41,9 @@ const ContactForm = () => {
 }
 
 export default ContactForm
+
+
+
+
+
+

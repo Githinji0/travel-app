@@ -16,7 +16,7 @@ export const TourCard = ({ tour }) => {
         backgroundPosition: 'center',
         height: '170px',
       }}>
-        
+
       </div>
       <div className="w-full z-1">
         {
@@ -32,19 +32,22 @@ export const TourCard = ({ tour }) => {
             <p className="mr-2">Duration:</p>
           </div>
 
-          <p>{tour.duration}</p>
+          <p>{tour.duration_dates}</p>
         </div>
         <div className="flex justify-between items-center flex-col  h-10">
 
-            <div className="flex  justify-between items-center ">
-               <FaLuggageCart className="inline-block mr-2 text-pink-600" />
-               <p className="mr-2">Space:</p>
-            </div>
-          <p>{tour.space}</p>
+          <div className="flex  justify-between items-center ">
+            <FaLuggageCart className="inline-block mr-2 text-pink-600" />
+            <p className="mr-2">Space:
+
+            </p>
+          </div>
+          <p>   {tour.max_participants}</p>
         </div>
       </div>
       <div className="flex justify-between items-center p-3 border-t border-gray-200">
-        <p className="font-bold text-gray-800">{tour.price}</p>
+        <p className="font-bold text-gray-800">{tour.pricing}</p>
+        <span>{tour.currency}</span>
         <p className="bg-pink-600 cursor-pointer text-white w-[100px] text-center h-[40px] items-center content-center justify-center rounded-lg hover:bg-pink-700  flex">
           Book Now!
         </p>

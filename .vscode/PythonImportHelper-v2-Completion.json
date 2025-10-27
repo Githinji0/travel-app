@@ -99,14 +99,6 @@
         "documentation": {}
     },
     {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -147,6 +139,38 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -192,6 +216,22 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
         "documentation": {}
     },
     {
@@ -251,6 +291,14 @@
         "documentation": {}
     },
     {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
         "label": "generic",
         "importPath": "django.views",
         "description": "django.views",
@@ -276,6 +324,22 @@
     },
     {
         "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -406,6 +470,15 @@
         "documentation": {}
     },
     {
+        "label": "django.core.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
         "label": "MinValueValidator",
         "importPath": "django.core.validators",
         "description": "django.core.validators",
@@ -415,6 +488,22 @@
     },
     {
         "label": "MaxValueValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "EmailValidator",
+        "importPath": "django.core.validators",
+        "description": "django.core.validators",
+        "isExtraImport": true,
+        "detail": "django.core.validators",
+        "documentation": {}
+    },
+    {
+        "label": "RegexValidator",
         "importPath": "django.core.validators",
         "description": "django.core.validators",
         "isExtraImport": true,
@@ -583,6 +672,30 @@
         "documentation": {}
     },
     {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "viewsets",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
         "label": "filters",
         "importPath": "rest_framework",
         "description": "rest_framework",
@@ -623,44 +736,11 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
         "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "static",
-        "importPath": "django.conf.urls.static",
-        "description": "django.conf.urls.static",
-        "isExtraImport": true,
-        "detail": "django.conf.urls.static",
-        "documentation": {}
-    },
-    {
-        "label": "django.db.models.deletion",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
+        "detail": "django",
         "documentation": {}
     },
     {
@@ -672,11 +752,20 @@
         "documentation": {}
     },
     {
-        "label": "slugify",
-        "importPath": "django.utils.text",
-        "description": "django.utils.text",
+        "label": "re",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "django.utils.text",
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "DefaultRouter",
+        "importPath": "rest_framework.routers",
+        "description": "rest_framework.routers",
+        "isExtraImport": true,
+        "detail": "rest_framework.routers",
         "documentation": {}
     },
     {
@@ -696,11 +785,43 @@
         "documentation": {}
     },
     {
+        "label": "action",
+        "importPath": "rest_framework.decorators",
+        "description": "rest_framework.decorators",
+        "isExtraImport": true,
+        "detail": "rest_framework.decorators",
+        "documentation": {}
+    },
+    {
         "label": "Response",
         "importPath": "rest_framework.response",
         "description": "rest_framework.response",
         "isExtraImport": true,
         "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "AllowAny",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "IsAdminUser",
+        "importPath": "rest_framework.permissions",
+        "description": "rest_framework.permissions",
+        "isExtraImport": true,
+        "detail": "rest_framework.permissions",
         "documentation": {}
     },
     {
@@ -725,6 +846,87 @@
         "description": "rest_framework.permissions",
         "isExtraImport": true,
         "detail": "rest_framework.permissions",
+        "documentation": {}
+    },
+    {
+        "label": "AnonRateThrottle",
+        "importPath": "rest_framework.throttling",
+        "description": "rest_framework.throttling",
+        "isExtraImport": true,
+        "detail": "rest_framework.throttling",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
         "documentation": {}
     },
     {
@@ -1261,6 +1463,168 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "backend.contacts.migrations.0001_initial",
+        "description": "backend.contacts.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='OfficeLocation',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('name', models.CharField(max_length=100, verbose_name='Location Name')),",
+        "detail": "backend.contacts.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "ContactAdmin",
+        "kind": 6,
+        "importPath": "backend.contacts.admin",
+        "description": "backend.contacts.admin",
+        "peekOfCode": "class ContactAdmin(admin.ModelAdmin):\n    list_display = ['full_name', 'email', 'phone', 'status', 'created_at']\n    list_filter = ['status', 'created_at']\n    search_fields = ['full_name', 'email', 'phone', 'message', 'address']\n    readonly_fields = ['created_at', 'updated_at', 'ip_address', 'user_agent']\n    date_hierarchy = 'created_at'\n    list_per_page = 25\n    fieldsets = (\n        ('Contact Information', {\n            'fields': ('full_name', 'email', 'phone', 'address')",
+        "detail": "backend.contacts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "OfficeLocationAdmin",
+        "kind": 6,
+        "importPath": "backend.contacts.admin",
+        "description": "backend.contacts.admin",
+        "peekOfCode": "class OfficeLocationAdmin(admin.ModelAdmin):\n    list_display = ['name', 'city', 'country', 'phone', 'is_active', 'order']\n    list_filter = ['is_active', 'country', 'city']\n    search_fields = ['name', 'city', 'country', 'address_line1']\n    list_editable = ['order', 'is_active']\n    fieldsets = (\n        ('Basic Information', {\n            'fields': ('name', 'is_active', 'order')\n        }),\n        ('Address', {",
+        "detail": "backend.contacts.admin",
+        "documentation": {}
+    },
+    {
+        "label": "ContactsConfig",
+        "kind": 6,
+        "importPath": "backend.contacts.apps",
+        "description": "backend.contacts.apps",
+        "peekOfCode": "class ContactsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'contacts'",
+        "detail": "backend.contacts.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ContactForm",
+        "kind": 6,
+        "importPath": "backend.contacts.forms",
+        "description": "backend.contacts.forms",
+        "peekOfCode": "class ContactForm(forms.ModelForm):\n    \"\"\"Form for contact submissions with validation\"\"\"\n    class Meta:\n        model = Contact\n        fields = ['full_name', 'email', 'phone', 'address', 'message']\n        widgets = {\n            'full_name': forms.TextInput(attrs={\n                'class': 'form-input',\n                'placeholder': 'Full name..',\n                'required': True,",
+        "detail": "backend.contacts.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Contact",
+        "kind": 6,
+        "importPath": "backend.contacts.models",
+        "description": "backend.contacts.models",
+        "peekOfCode": "class Contact(models.Model):\n    \"\"\"Model for storing contact form submissions\"\"\"\n    STATUS_CHOICES = [\n        ('new', 'New'),\n        ('read', 'Read'),\n        ('contacted', 'Contacted'),\n        ('closed', 'Closed'),\n    ]\n    phone_regex = RegexValidator(\n        regex=r'^[+]?[(]?[0-9]{1,4}[)]?[-\\s.]?[(]?[0-9]{1,4}[)]?[-\\s.]?[0-9]{1,9}$',",
+        "detail": "backend.contacts.models",
+        "documentation": {}
+    },
+    {
+        "label": "OfficeLocation",
+        "kind": 6,
+        "importPath": "backend.contacts.models",
+        "description": "backend.contacts.models",
+        "peekOfCode": "class OfficeLocation(models.Model):\n    \"\"\"Model for managing office locations\"\"\"\n    name = models.CharField(max_length=100, verbose_name=\"Location Name\")\n    address_line1 = models.CharField(\n        max_length=200, verbose_name=\"Address Line 1\")\n    address_line2 = models.CharField(\n        max_length=200, blank=True, verbose_name=\"Address Line 2\")\n    city = models.CharField(max_length=100)\n    country = models.CharField(max_length=100)\n    phone = models.CharField(max_length=20)",
+        "detail": "backend.contacts.models",
+        "documentation": {}
+    },
+    {
+        "label": "ContactSerializer",
+        "kind": 6,
+        "importPath": "backend.contacts.serializers",
+        "description": "backend.contacts.serializers",
+        "peekOfCode": "class ContactSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for Contact model\"\"\"\n    class Meta:\n        model = Contact\n        fields = [\n            'id', 'full_name', 'email', 'phone', 'address',\n            'message', 'status', 'created_at', 'updated_at'\n        ]\n        read_only_fields = ['id', 'status', 'created_at', 'updated_at']\n    def validate_full_name(self, value):",
+        "detail": "backend.contacts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ContactListSerializer",
+        "kind": 6,
+        "importPath": "backend.contacts.serializers",
+        "description": "backend.contacts.serializers",
+        "peekOfCode": "class ContactListSerializer(serializers.ModelSerializer):\n    \"\"\"Simplified serializer for listing contacts (admin)\"\"\"\n    class Meta:\n        model = Contact\n        fields = ['id', 'full_name', 'email', 'phone', 'status', 'created_at']\nclass ContactStatusUpdateSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for updating contact status\"\"\"\n    class Meta:\n        model = Contact\n        fields = ['status']",
+        "detail": "backend.contacts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "ContactStatusUpdateSerializer",
+        "kind": 6,
+        "importPath": "backend.contacts.serializers",
+        "description": "backend.contacts.serializers",
+        "peekOfCode": "class ContactStatusUpdateSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for updating contact status\"\"\"\n    class Meta:\n        model = Contact\n        fields = ['status']\n    def validate_status(self, value):\n        valid_statuses = ['new', 'read', 'contacted', 'closed']\n        if value not in valid_statuses:\n            raise serializers.ValidationError(\n                f\"Status must be one of: {', '.join(valid_statuses)}\")",
+        "detail": "backend.contacts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "OfficeLocationSerializer",
+        "kind": 6,
+        "importPath": "backend.contacts.serializers",
+        "description": "backend.contacts.serializers",
+        "peekOfCode": "class OfficeLocationSerializer(serializers.ModelSerializer):\n    \"\"\"Serializer for OfficeLocation model\"\"\"\n    class Meta:\n        model = OfficeLocation\n        fields = [\n            'id', 'name', 'address_line1', 'address_line2',\n            'city', 'country', 'phone', 'email', 'latitude',\n            'longitude', 'order'\n        ]",
+        "detail": "backend.contacts.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.contacts.urls",
+        "description": "backend.contacts.urls",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'contacts', ContactViewSet, basename='contact')\nrouter.register(r'locations', OfficeLocationViewSet, basename='location')\napp_name = 'contacts'\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "backend.contacts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "backend.contacts.urls",
+        "description": "backend.contacts.urls",
+        "peekOfCode": "app_name = 'contacts'\nurlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "backend.contacts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "backend.contacts.urls",
+        "description": "backend.contacts.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
+        "detail": "backend.contacts.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ContactSubmitThrottle",
+        "kind": 6,
+        "importPath": "backend.contacts.views",
+        "description": "backend.contacts.views",
+        "peekOfCode": "class ContactSubmitThrottle(AnonRateThrottle):\n    \"\"\"Custom throttle for contact form submissions\"\"\"\n    rate = '3/hour'\n    scope = 'contact_submit'\nclass ContactViewSet(viewsets.ModelViewSet):\n    queryset = Contact.objects.all()\n    serializer_class = ContactSerializer\n    filterset_fields = ['status', 'created_at']\n    search_fields = ['full_name', 'email', 'phone', 'message']\n    ordering_fields = ['created_at', 'updated_at', 'full_name']",
+        "detail": "backend.contacts.views",
+        "documentation": {}
+    },
+    {
+        "label": "ContactViewSet",
+        "kind": 6,
+        "importPath": "backend.contacts.views",
+        "description": "backend.contacts.views",
+        "peekOfCode": "class ContactViewSet(viewsets.ModelViewSet):\n    queryset = Contact.objects.all()\n    serializer_class = ContactSerializer\n    filterset_fields = ['status', 'created_at']\n    search_fields = ['full_name', 'email', 'phone', 'message']\n    ordering_fields = ['created_at', 'updated_at', 'full_name']\n    def get_permissions(self):\n        \"\"\"Allow anyone to submit, but require admin for other actions\"\"\"\n        if self.action == 'create':\n            return [AllowAny()]",
+        "detail": "backend.contacts.views",
+        "documentation": {}
+    },
+    {
+        "label": "OfficeLocationViewSet",
+        "kind": 6,
+        "importPath": "backend.contacts.views",
+        "description": "backend.contacts.views",
+        "peekOfCode": "class OfficeLocationViewSet(viewsets.ReadOnlyModelViewSet):\n    \"\"\"Viewset for OfficeLocation model (read-only)\"\"\"\n    queryset = OfficeLocation.objects.filter(is_active=True)\n    serializer_class = OfficeLocationSerializer\n    permission_classes = [AllowAny]\n    pagination_class = None\n    def list(self, request, *args, **kwargs):\n        \"\"\"List all active office locations\"\"\"\n        queryset = self.get_queryset()\n        serializer = self.get_serializer(queryset, many=True)",
+        "detail": "backend.contacts.views",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.contacts.views",
+        "description": "backend.contacts.views",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass ContactSubmitThrottle(AnonRateThrottle):\n    \"\"\"Custom throttle for contact form submissions\"\"\"\n    rate = '3/hour'\n    scope = 'contact_submit'\nclass ContactViewSet(viewsets.ModelViewSet):\n    queryset = Contact.objects.all()\n    serializer_class = ContactSerializer\n    filterset_fields = ['status', 'created_at']\n    search_fields = ['full_name', 'email', 'phone', 'message']",
+        "detail": "backend.contacts.views",
+        "documentation": {}
+    },
+    {
         "label": "application",
         "kind": 5,
         "importPath": "backend.core.asgi",
@@ -1274,7 +1638,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-5rqozn)m*0u_ay#)jjhn0)(@za04t#82$tr+pt*-+r8+lv=t6z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\nload_dotenv(BASE_DIR / '.env')\n# SECRET_KEY = 'django-insecure-5rqozn)m*0u_ay#)jjhn0)(@za04t#82$tr+pt*-+r8+lv=t6z'\nSECRET_KEY = os.getenv('SECRET_KEY')\nDEBUG = os.getenv('DEBUG', 'False').lower() == 'true'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1283,7 +1647,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-5rqozn)m*0u_ay#)jjhn0)(@za04t#82$tr+pt*-+r8+lv=t6z'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'destinations.apps.DestinationsConfig',\n    'accounts.apps.AccountsConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "SECRET_KEY = os.getenv('SECRET_KEY')\nDEBUG = os.getenv('DEBUG', 'False').lower() == 'true'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',\n    '2ed74eecdcfc.ngrok-free.app'\n]\nCSRF_TRUSTED_ORIGINS = [",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1292,7 +1656,16 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'destinations.apps.DestinationsConfig',\n    'accounts.apps.AccountsConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',\n    '2ed74eecdcfc.ngrok-free.app'\n]\nCSRF_TRUSTED_ORIGINS = [\n    'https://2ed74eecdcfc.ngrok-free.app'",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',\n    '2ed74eecdcfc.ngrok-free.app'\n]\nCSRF_TRUSTED_ORIGINS = [\n    'https://2ed74eecdcfc.ngrok-free.app'\n]\n# Application definition",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1301,7 +1674,16 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'destinations.apps.DestinationsConfig',\n    'accounts.apps.AccountsConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "ALLOWED_HOSTS = [\n    'localhost',\n    '127.0.0.1',\n    '2ed74eecdcfc.ngrok-free.app'\n]\nCSRF_TRUSTED_ORIGINS = [\n    'https://2ed74eecdcfc.ngrok-free.app'\n]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = [\n    'https://2ed74eecdcfc.ngrok-free.app'\n]\n# Application definition\nINSTALLED_APPS = [\n    'destinations.apps.DestinationsConfig',\n    'accounts.apps.AccountsConfig',\n    'contacts.apps.ContactsConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1310,7 +1692,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'destinations.apps.DestinationsConfig',\n    'accounts.apps.AccountsConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django_filters',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'destinations.apps.DestinationsConfig',\n    'accounts.apps.AccountsConfig',\n    'contacts.apps.ContactsConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1328,7 +1710,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',\n    'user-agent',",
+        "peekOfCode": "CORS_ALLOW_ALL_ORIGINS = True\nCORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_METHODS = [\n    'DELETE', 'GET', 'OPTIONS', 'PATCH', 'POST', 'PUT',\n]\nCORS_ALLOW_HEADERS = [\n    'ngrok-skip-browser-warning',\n    'accept',\n    'accept-encoding',\n    'authorization',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1337,7 +1719,16 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',\n    'user-agent',\n    'x-csrftoken',",
+        "peekOfCode": "CORS_ALLOW_CREDENTIALS = True\nCORS_ALLOW_METHODS = [\n    'DELETE', 'GET', 'OPTIONS', 'PATCH', 'POST', 'PUT',\n]\nCORS_ALLOW_HEADERS = [\n    'ngrok-skip-browser-warning',\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ALLOW_METHODS",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "CORS_ALLOW_METHODS = [\n    'DELETE', 'GET', 'OPTIONS', 'PATCH', 'POST', 'PUT',\n]\nCORS_ALLOW_HEADERS = [\n    'ngrok-skip-browser-warning',\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1346,7 +1737,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "CORS_ALLOW_HEADERS = [\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',\n    'user-agent',\n    'x-csrftoken',\n    'x-requested-with',",
+        "peekOfCode": "CORS_ALLOW_HEADERS = [\n    'ngrok-skip-browser-warning',\n    'accept',\n    'accept-encoding',\n    'authorization',\n    'content-type',\n    'dnt',\n    'origin',\n    'user-agent',\n    'x-csrftoken',",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1355,7 +1746,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_PERMISSION_CLASSES': [\n        'rest_framework.permissions.AllowAny',  # Adjust based ib your needs\n    ],\n    'DEFAULT_PAGINATION_CLASS':\n        'rest_framework.pagination.PageNumberPagination',\n    'PAGE_SIZE': 10,\n    'DEFAULT_FILTER_BACKENDS': [\n        'rest_framework.filters.SearchFilter',\n        'rest_framework.filters.OrderingFilter',",
+        "peekOfCode": "REST_FRAMEWORK = {\n    'DEFAULT_RENDERER_CLASSES': [\n        'rest_framework.renderers.JSONRenderer',\n    ],\n    'DEFAULT_PARSER_CLASSES': [\n        'rest_framework.parsers.JSONParser',\n        'rest_framework.parsers.FormParser',\n        'rest_framework.parsers.MultiPartParser',\n    ],\n    'DEFAULT_PERMISSION_CLASSES': [",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1382,7 +1773,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'core.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'travel_app_db',\n        'USER': 'kelvin',\n        'PASSWORD': 'admin',\n        'HOST': 'localhost',",
+        "peekOfCode": "WSGI_APPLICATION = 'core.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': os.getenv('DB_NAME'),\n        'USER': os.getenv('DB_USER'),\n        'PASSWORD': os.getenv('DB_PASSWORD'),\n        'HOST': os.getenv('DB_HOST', 'localhost'),",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1391,7 +1782,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'travel_app_db',\n        'USER': 'kelvin',\n        'PASSWORD': 'admin',\n        'HOST': 'localhost',\n        'PORT': '5432',\n    }\n}",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': os.getenv('DB_NAME'),\n        'USER': os.getenv('DB_USER'),\n        'PASSWORD': os.getenv('DB_PASSWORD'),\n        'HOST': os.getenv('DB_HOST', 'localhost'),\n        'PORT': os.getenv('DB_PORT', '5432'),\n    }\n}",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1445,7 +1836,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nAUTH_USER_MODEL = 'accounts.CustomUser'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Default primary key field type",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nAUTH_USER_MODEL = 'accounts.CustomUser'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Email configuration",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1454,7 +1845,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nAUTH_USER_MODEL = 'accounts.CustomUser'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nAUTH_USER_MODEL = 'accounts.CustomUser'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1463,7 +1854,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "USE_TZ = True\nAUTH_USER_MODEL = 'accounts.CustomUser'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\nAUTH_USER_MODEL = 'accounts.CustomUser'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1472,7 +1863,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'accounts.CustomUser'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "AUTH_USER_MODEL = 'accounts.CustomUser'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')\nEMAIL_PORT = int(os.getenv('EMAIL_PORT', 587))",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1481,7 +1872,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')\nEMAIL_PORT = int(os.getenv('EMAIL_PORT', 587))\nEMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', 'True').lower() == 'true'\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1490,7 +1881,7 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')\nEMAIL_PORT = int(os.getenv('EMAIL_PORT', 587))\nEMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', 'True').lower() == 'true'\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')\nDEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1499,7 +1890,106 @@
         "kind": 5,
         "importPath": "backend.core.settings",
         "description": "backend.core.settings",
-        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "MEDIA_ROOT = os.path.join(BASE_DIR / 'media')\n# Email configuration\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')\nEMAIL_PORT = int(os.getenv('EMAIL_PORT', 587))\nEMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', 'True').lower() == 'true'\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')\nDEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)\nADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')\nEMAIL_PORT = int(os.getenv('EMAIL_PORT', 587))\nEMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', 'True').lower() == 'true'\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')\nDEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)\nADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)\nSECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "EMAIL_HOST = os.getenv('EMAIL_HOST', 'smtp.gmail.com')\nEMAIL_PORT = int(os.getenv('EMAIL_PORT', 587))\nEMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', 'True').lower() == 'true'\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')\nDEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)\nADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)\nSECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "EMAIL_PORT = int(os.getenv('EMAIL_PORT', 587))\nEMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', 'True').lower() == 'true'\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')\nDEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)\nADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)\nSECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'\nif not DEBUG:",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "EMAIL_USE_TLS = os.getenv('EMAIL_USE_TLS', 'True').lower() == 'true'\nEMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')\nDEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)\nADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)\nSECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'\nif not DEBUG:\n    SECURE_SSL_REDIRECT = True",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "EMAIL_HOST_USER = os.getenv('EMAIL_HOST_USER', '')\nEMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')\nDEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)\nADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)\nSECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'\nif not DEBUG:\n    SECURE_SSL_REDIRECT = True\n    SESSION_COOKIE_SECURE = True",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = os.getenv('EMAIL_HOST_PASSWORD', '')\nDEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)\nADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)\nSECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'\nif not DEBUG:\n    SECURE_SSL_REDIRECT = True\n    SESSION_COOKIE_SECURE = True\n    CSRF_COOKIE_SECURE = True",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL', EMAIL_HOST_USER)\nADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)\nSECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'\nif not DEBUG:\n    SECURE_SSL_REDIRECT = True\n    SESSION_COOKIE_SECURE = True\n    CSRF_COOKIE_SECURE = True\n# Default primary key field type",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ADMIN_EMAIL",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "ADMIN_EMAIL = os.getenv('ADMIN_EMAIL', EMAIL_HOST_USER)\nSECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'\nif not DEBUG:\n    SECURE_SSL_REDIRECT = True\n    SESSION_COOKIE_SECURE = True\n    CSRF_COOKIE_SECURE = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECURE_BROWSER_XSS_FILTER",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "SECURE_BROWSER_XSS_FILTER = True\nSECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'\nif not DEBUG:\n    SECURE_SSL_REDIRECT = True\n    SESSION_COOKIE_SECURE = True\n    CSRF_COOKIE_SECURE = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECURE_CONTENT_TYPE_NOSNIFF",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "SECURE_CONTENT_TYPE_NOSNIFF = True\nX_FRAME_OPTIONS = 'DENY'\nif not DEBUG:\n    SECURE_SSL_REDIRECT = True\n    SESSION_COOKIE_SECURE = True\n    CSRF_COOKIE_SECURE = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "backend.core.settings",
+        "documentation": {}
+    },
+    {
+        "label": "X_FRAME_OPTIONS",
+        "kind": 5,
+        "importPath": "backend.core.settings",
+        "description": "backend.core.settings",
+        "peekOfCode": "X_FRAME_OPTIONS = 'DENY'\nif not DEBUG:\n    SECURE_SSL_REDIRECT = True\n    SESSION_COOKIE_SECURE = True\n    CSRF_COOKIE_SECURE = True\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "backend.core.settings",
         "documentation": {}
     },
@@ -1517,7 +2007,7 @@
         "kind": 5,
         "importPath": "backend.core.urls",
         "description": "backend.core.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('destinations.urls')),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL,\n                          document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('destinations.urls')),\n    path('api/', include('contacts.urls')),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL,\n                          document_root=settings.MEDIA_ROOT)",
         "detail": "backend.core.urls",
         "documentation": {}
     },
@@ -1724,7 +2214,7 @@
         "kind": 5,
         "importPath": "backend.destinations.urls",
         "description": "backend.destinations.urls",
-        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'destinations', DestinationViewSet, basename='destination')\nrouter.register(r'tours', TourViewSet, basename='tour')\nurlpatterns = [\n    path('api/', include(router.urls)),\n]",
+        "peekOfCode": "router = DefaultRouter()\nrouter.register(r'destinations', DestinationViewSet, basename='destination')\nrouter.register(r'tours', TourViewSet, basename='tour')\nurlpatterns = [\n    path('', include(router.urls)),\n]",
         "detail": "backend.destinations.urls",
         "documentation": {}
     },
@@ -1733,7 +2223,7 @@
         "kind": 5,
         "importPath": "backend.destinations.urls",
         "description": "backend.destinations.urls",
-        "peekOfCode": "urlpatterns = [\n    path('api/', include(router.urls)),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('', include(router.urls)),\n]",
         "detail": "backend.destinations.urls",
         "documentation": {}
     },
