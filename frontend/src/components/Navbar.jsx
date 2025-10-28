@@ -38,7 +38,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-[#2E2E2E] mt-7 shadow-lg max-w-[1180px] mx-auto rounded-lg text-white mb-5 lg:block sm:hidden">
+    <nav className="bg-[#2E2E2E] mt-7 shadow-lg max-w-[1180px]  rounded-lg text-white mb-5 lg:block sm:hidden mx-2">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link to="/" className="text-2xl font-allan text-pink-600 hover:text-white transition-colors">

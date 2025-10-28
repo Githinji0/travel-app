@@ -43,8 +43,8 @@ export const TestimonialCarousel = () => {
   ];
 
   return (
-    <div className="overflow-hidden embla" ref={emblaRef}>
-      <div className="whitespace-nowrap">
+    <div className="overflow-hidden embla  max-w-full" ref={emblaRef}>
+      <div className="whitespace-nowrap  max-w-[340px]">
         {Testimonies.map((testimony) => (
           <TestimonialCard key={testimony.id} {...testimony} />
         ))}

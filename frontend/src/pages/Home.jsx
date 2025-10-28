@@ -32,7 +32,7 @@ const Home = () => {
               backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url(${sliderImages[0]})`,
             }}
           >
-            <h1 className="text-white lg:text-4xl sm:text-3xl font-bold z-10 tracking-wider">
+            <h1 className="text-white lg:text-4xl text-2xl font-bold z-10 tracking-wider">
               Explore the <span className="bg-pink-600 w-[120px]">World</span>{" "}
               with Us
             </h1>
@@ -69,7 +69,7 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col ">
+        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col ">
           <motion.div 
           animate={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 80 }}
@@ -99,9 +99,9 @@ const Home = () => {
       
       
       >
-        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10">
+        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start  flex flex-col ">
           <div className=" flex flex-col w-full justify-center items-start  text-start mb-6">
-            <h2 className="text-1xl font-bold text-[#2E2E2E]  mb-4 items-start border-l-2 pl-2 border-pink-600">
+            <h2 className="text-xl font-bold text-[#2E2E2E]  mb-4 items-start border-l-2 pl-2 border-pink-600">
               Amazing offers
             </h2>
             <h1 className="text-2xl font-bold text-pink-600 font-allan mb-4">
@@ -109,7 +109,7 @@ const Home = () => {
               adventure.
             </h1>
           </div>
-          <div className="box w-full flex justify-center items-center mt-6">
+          <div className=" max-w-[300px] lg:max-w-full flex justify-center items-center mt-6">
             <Carousel />
           </div>
         </div>
@@ -123,7 +123,7 @@ const Home = () => {
       
       
       >
-        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10">
+        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10">
           <div className="">
             <h3 className="border-l-2 pl-2 border-pink-600 text-[#2E2E2E] font-bold">
               Amazing Tours
@@ -132,7 +132,7 @@ const Home = () => {
               Trending,Best Selling Tours And Fun Destinations
             </h1>
           </div>
-          <div className="box w-full flex justify-center items-center mt-6">
+          <div className="box max-w-[300px] lg:max-w-full flex justify-center items-center mt-6">
             <TourCarousel />
           </div>
         </div>
@@ -146,20 +146,20 @@ const Home = () => {
       
       
       >
-        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10">
+        <div className="bg-[#d9d9d9] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10">
           <div className="">
             <h3 className="border-l-2 pl-2 border-pink-600 text-[#2E2E2E] font-bold">
               Testimonials
             </h3>
-            <h1 className="font-allan text-pink-600 text-2xl font-bold mt-5">
+            <h1 className="font-allan text-pink-600 lg:text-2xl font-bold mt-5">
               What Our Clients Say About Us
             </h1>
           </div>
-          <div className="flex w-full justify-center items-center mt-6 relative">
-            <div className=" w-[40%] ">
+          <div className="flex flex-col lg:flex-row max-w-full  justify-center items-center relative">
+            <div className="  ">
               <CustomerImage />
             </div>
-            <div className=" w-[60%] h-full">
+            <div className="  h-full">
               <TestimonialCarousel />
             </div>
           </div>
@@ -172,7 +172,7 @@ const Home = () => {
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
       
-      className="w-full bg-[#2E2E2E] text-white p-4 flex flex-col items-center justify-center mt-10">
+      className="max-w-full bg-[#2E2E2E] text-white mx-2 p-4 flex flex-col items-center justify-center mt-10">
         <FooterCard />
       </motion.footer>
     </div>

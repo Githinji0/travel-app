@@ -12,7 +12,7 @@ export const GridBox = () => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1, ease: "easeOut" }}
       viewport={{ once: true }}
-      className="grid gap-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:max-w-[50%] bg-slate-500 w-full p-2"
+      className="grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-[1200px] p-2"
     >
 
       <div className="grid grid-rows-2 gap-3 w-full">
