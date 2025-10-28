@@ -69,14 +69,14 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col ">
+        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col lg:w-[1180px] ">
           <motion.div 
           animate={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: 80 }}
           transition={{ duration: 1, ease: "easeOut" }}
           viewport={{ once: true, amount: 0.3 }}
           
-          className=" flex flex-col w-full justify-center items-start  text-start mb-6">
+          className=" flex flex-col w-full  justify-center items-start  text-start mb-6">
             <h2 className="text-1xl font-bold text-[#2E2E2E]  mb-4 items-start border-l-2 pl-2 border-pink-600">
               Amaizing destinations
             </h2>
@@ -146,7 +146,7 @@ const Home = () => {
       
       
       >
-        <div className="bg-[#d9d9d9] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10">
+        <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10 lg:w-[1180px]">
           <div className="">
             <h3 className="border-l-2 pl-2 border-pink-600 text-[#2E2E2E] font-bold">
               Testimonials
@@ -156,10 +156,10 @@ const Home = () => {
             </h1>
           </div>
           <div className="flex flex-col lg:flex-row max-w-full  justify-center items-center relative">
-            <div className="  ">
+            <div className=" lg:w-full  ">
               <CustomerImage />
             </div>
-            <div className="  h-full">
+            <div className=" lg:w-full lg:ml-10 mt-10 lg:mt-0 ">
               <TestimonialCarousel />
             </div>
           </div>
