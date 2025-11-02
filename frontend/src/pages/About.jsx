@@ -9,18 +9,18 @@ import { FooterCard } from "../components/FooterCard";
 
 const About = () => {
   return (
-    <div className="  bg-white flex items-center justify-around flex-col  pt-0  mt-0">
-      <section className="w-[1280px] flex items-center justify-center  mt-0 pt-0">
+    <div className="  bg-white flex items-center justify-around flex-col  pt-0  mt-0 ">
+      <section className="max-w-[1280px]  lg:w-[1280px] flex items-center justify-center mx-2 lg:mx-0 mt-0 pt-0">
         <HeroAbout />
       </section>
-      <section className=" w-[1280px] mt-14 h-screen flex items-center justify-center">
+      <section className=" max-w-[1280px] lg:w-[1280px] mt-14 h-screen flex items-center justify-center">
         <AboutUs />
       </section>
-      <section className=" w-[1280px] bg-white mt-14 min-h-screen flex flex-col items-center justify-center">
+      <section className=" max-w-[1280px]  lg:w-[1280px] mt-10 min-h-screen flex flex-col items-center justify-center">
         <Bookmarksgrove />
         <HeadlineSubline />
       </section>
-      <section className=" w-[1280px] bg-white mt-14 min-h-screen flex items-center justify-center">
+      <section className=" max-w-[1280px] lg:w-[1280px] bg-white mt-14 min-h-screen flex items-center justify-center">
         <VillageSubline />
       </section>
       <motion.footer
@@ -28,7 +28,7 @@ const About = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
-        className="w-full bg-[#2E2E2E] text-white p-4 flex flex-col items-center justify-center mt-10"
+        className="w-full bg-[#2E2E2E] text-white p-4 flex flex-col items-center justify-center mt-10 mx-2"
       >
         <FooterCard />
       </motion.footer>

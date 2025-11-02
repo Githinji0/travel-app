@@ -10,6 +10,9 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Profile from './(auth)/Profile';
+import Login from './(auth)/Login';
+import Signup from './(auth)/Signup';
 
 
 function App() {
@@ -28,6 +31,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
         </Routes>
       </div>
     </Router>

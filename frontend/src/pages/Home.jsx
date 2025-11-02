@@ -27,7 +27,7 @@ const Home = () => {
       >
         <div className="min-w-full flex justify-center items-center z-1">
           <div
-            className="max-w-[1300px] w-full h-[500px] relative flex items-center justify-center bg-cover bg-center rounded-lg shadow-lg flex-col z-1"
+            className="max-w-[1500px] w-full h-[500px] lg:h-[700px] relative flex items-center justify-center bg-cover bg-center rounded-lg shadow-lg flex-col z-1"
             style={{
               backgroundImage: `linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.2)), url(${sliderImages[0]})`,
             }}

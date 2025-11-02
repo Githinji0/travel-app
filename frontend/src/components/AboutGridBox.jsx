@@ -4,9 +4,9 @@ import gridImage2 from "../assets/images/s2.jpeg";
 
 const AboutGridBox = () => {
   return (
-    <div className="relative w-full h-full flex flex-wrap ">
+    <div className="relative lg:w-full min-w-full min-h-[350px] lg:min-h-full flex flex-wrap l ">
       <div
-        className="w-[80%] h-[80%] absolute top-10 right-0 p-4 border-pink-300 border-2 rounded-sm"
+        className="w-[80%] h-[50%] lg:h-[70%] absolute top-10 right-0 p-4 border-pink-300 border-2 rounded-sm"
         style={{
           backgroundImage: `url(${gridImage1})`,
           backgroundPosition: "center",
@@ -14,7 +14,7 @@ const AboutGridBox = () => {
         }}
       ></div>
       <div
-        className="w-[44%] h-[44%] absolute bottom-10 left-0 p-4 border-pink-300 border-2 rounded-sm"
+        className="w-[60%] h-[40%] absolute bottom-10 left-0 p-4 border-pink-300 border-2 rounded-sm"
         style={{
           backgroundImage: `url(${gridImage2})`,
           backgroundSize: "cover",

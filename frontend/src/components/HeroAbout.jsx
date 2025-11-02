@@ -39,7 +39,7 @@ const HeroAbout = () => {
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
-      className="w-[1300px] relative h-[500px] flex flex-col rounded-lg justify-center items-center text-white"
+      className="max-w-[1300px] lg:w-[1300px] relative h-[500px] flex flex-col rounded-lg justify-center items-center text-white"
     >
       <h1 className="text-4xl font-bold text-center mt-10"><span className="bg-pink-600">About</span> Us</h1>
       <p className="text-lg text-center mt-4">
@@ -47,7 +47,7 @@ const HeroAbout = () => {
         experiences for our clients.
       </p>
 
-      <div className="w-[80%] grid grid-cols-4 gap-6  absolute bottom-[-100px] p-5 rounded-lg  mb-10">
+      <div className="lg:w-[80%] w-full  sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6  absolute bottom-[-120%]  p-5 rounded-lg hidden mb-10">
         {AboutData.map((item, index) => (
           <AboutCard
             key={index}

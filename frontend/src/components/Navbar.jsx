@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { FaUser } from 'react-icons/fa';
+import Profile from '../(auth)/Profile';
 
 
 const Navbar = () => {
@@ -9,6 +11,8 @@ const Navbar = () => {
   const dropdownRef = useRef(null);
   const toursDropdownRef = useRef(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isProfileOpen, setIsProfileOpen] = useState(false);
+  const [isAuthenticated, setIsAuthenticated] = useState(false); 
 
   const handleMobileMenuToggle = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -18,6 +22,7 @@ const Navbar = () => {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' }
+
   ];
 
 
@@ -39,48 +44,46 @@ const Navbar = () => {
 
   return (
     <nav className="bg-[#2E2E2E] mt-7 shadow-lg max-w-[1180px] lg:mx-auto rounded-lg text-white mb-5 lg:block sm:hidden mx-2">
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center py-4">
+      <div className="container mx-auto px-4 flex justify-between items-center ">
+        <div className="flex justify-between items-center py-4  w-full">
           <Link to="/" className="text-2xl font-allan text-pink-600 hover:text-white transition-colors">
             Travola
           </Link>
-          
+
           <div className="hidden md:flex space-x-8 items-center">
             {navItems.map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
-                className={`text-white hover:text-pink-600 transition-colors ${
-                  location.pathname === item.path 
-                    ? 'text-blue-600 font-semibold' 
-                    : ''
-                }`}
+                className={`text-white hover:text-pink-600 transition-colors ${location.pathname === item.path
+                  ? 'text-blue-600 font-semibold'
+                  : ''
+                  }`}
               >
                 {item.name}
               </Link>
             ))}
-            
+
             {/* Destinations Dropdown */}
             <div className="relative" ref={dropdownRef}>
               <button
                 onClick={() => setIsDestinationsOpen(!isDestinationsOpen)}
-                className={`text-white hover:text-pink-600 transition-colors flex items-center space-x-1 ${
-                  location.pathname.includes('/destinations') 
-                    ? 'text-blue-600 font-semibold' 
-                    : ''
-                }`}
+                className={`text-white hover:text-pink-600 transition-colors flex items-center space-x-1 ${location.pathname.includes('/destinations')
+                  ? 'text-blue-600 font-semibold'
+                  : ''
+                  }`}
               >
                 <span>Destinations</span>
-                <svg 
-                  className={`w-4 h-4 transition-transform ${isDestinationsOpen ? 'rotate-180' : ''}`} 
-                  fill="none" 
-                  stroke="currentColor" 
+                <svg
+                  className={`w-4 h-4 transition-transform ${isDestinationsOpen ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              
+
               {isDestinationsOpen && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg border border-gray-100 z-50">
                   <Link
@@ -100,28 +103,27 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-            
+
             {/* Tours Dropdown */}
             <div className="relative" ref={toursDropdownRef}>
               <button
                 onClick={() => setIsToursOpen(!isToursOpen)}
-                className={`text-white hover:text-pink-600 transition-colors flex items-center space-x-1 ${
-                  location.pathname.includes('/tours') 
-                    ? 'text-blue-600 font-semibold' 
-                    : ''
-                }`}
+                className={`text-white hover:text-pink-600 transition-colors flex items-center space-x-1 ${location.pathname.includes('/tours')
+                  ? 'text-blue-600 font-semibold'
+                  : ''
+                  }`}
               >
                 <span>Tours</span>
-                <svg 
-                  className={`w-4 h-4 transition-transform ${isToursOpen ? 'rotate-180' : ''}`} 
-                  fill="none" 
-                  stroke="currentColor" 
+                <svg
+                  className={`w-4 h-4 transition-transform ${isToursOpen ? 'rotate-180' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
                   viewBox="0 0 24 24"
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              
+
               {isToursOpen && (
                 <div className="absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg border border-gray-100 z-50">
                   <Link
@@ -142,7 +144,7 @@ const Navbar = () => {
               )}
             </div>
           </div>
-          
+
           {/* Mobile button */}
           <div className="md:hidden sm:block">
             <button onClick={handleMobileMenuToggle} className="text-white hover:text-pink-600">
@@ -187,10 +189,24 @@ const Navbar = () => {
                   All Tours
                 </Link>
               </div>
+
             </div>
+
           )}
         </div>
+        <div className="px-4 ml-5">
+          <Link
+            to="/profile"
+            className="flex items-center hover:text-pink-600 transition-colors text-sm lg:text-base"
+            onClick={()=>{console.log(Profile)}}
+
+          >
+            <FaUser size={25} color="white" className='hover:text-pink-600' />
+          </Link>
+
+        </div>
       </div>
+
     </nav>
   );
 };

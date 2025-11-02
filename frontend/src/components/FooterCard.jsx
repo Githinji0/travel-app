@@ -11,8 +11,8 @@ export const FooterCard = () => {
     }
   return (
     <div className="">
-      <div className="grid grid-cols-3 gap-5 w-full">
-        <div className="">
+      <div className="grid grid-cols-3 gap-5 w-full mx-2">
+        <div className="mx-2">
           <h2 className="font-allan text-lg lg:text-2xl text-pink-600">Travola</h2>
           <p className="my-6 text-md lg:text-lg text-white">
             Your trusted travel partner for unforgettable journeys and

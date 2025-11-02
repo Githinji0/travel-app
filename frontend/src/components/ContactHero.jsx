@@ -9,8 +9,8 @@ const ContactHero = () => {
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
         }}
-        
-        className="w-[1280px] h-[300px] md:h-[400px] lg:h-[500px] relative align-middle flex items-center justify-center rounded-lg flex-col">
+
+        className="min-w-[360px] lg:w-[1280px] h-[300px] md:h-[400px] lg:h-[500px] relative align-middle flex items-center justify-center rounded-lg flex-col mx-2">
             <h1 className="text-4xl md:text-2xl lg:text-4xl font-bold text-white mb-4 flex items-center justify-center">
           
                 <span className="bg-pink-600 text-2xl mr-4 md:text-5xl lg:text-4xl ">Contact</span>

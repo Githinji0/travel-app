@@ -1,8 +1,11 @@
 import { FaPhone, FaAddressBook, FaMailBulk, FaUser } from "react-icons/fa"
 import ContactInput from "./ContactInput"
 
+import submitContactForm from "../api/submitContactForm"
+
 
 const ContactForm = () => {
+
     const inputDetails = [{
         text: `Full name..`,
         icon: <FaUser size={20} className="text-pink-600" />,
@@ -18,8 +21,15 @@ const ContactForm = () => {
     }, {
         text: `Address..`,
         icon: <FaAddressBook size={20} className="text-pink-600" />,
-        type: `adress`
+        type: `address`
     }]
+    const formData = {
+        name: "",
+        email: "",
+        phone: "",
+        address: "",
+        message: ""
+    }
     return (
         <div className="flex flex-col w-full ">
             <div className="grid grid-cols-2 grid-rows-2 place-items-center">

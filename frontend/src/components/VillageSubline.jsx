@@ -28,7 +28,7 @@ const VillageSubline = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-2 gap-2 items-center w-full ">
+    <div className="grid lg:grid-cols-2 grid-cols-1 gap-2 items-center max-w-full ">
       <div className="w-full  h-full flex flex-col items-center justify-center text-start">
         <h1 className="text-start flex my-5 w-full px-5 font-allan text-2xl text-pink-600 font-bold">
           Bookmarksgrove, the headline of Alphabet Village subline.
@@ -50,7 +50,7 @@ const VillageSubline = () => {
           ))}
         </div>
       </div>
-      <div className="box">
+      <div className="mx-2">
         <img
           src={img1}
           alt="village-pic"
