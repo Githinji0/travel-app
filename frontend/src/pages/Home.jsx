@@ -12,10 +12,16 @@ import { TourCarousel } from "../components/TourCarousel";
 import { CustomerImage } from "../components/CustomerImage";
 import { TestimonialCarousel } from "../components/TestimonialCarousel";
 import { FooterCard } from "../components/FooterCard";
+import BookingPage from "./BookingPage";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { Navigate } from "react-router-dom";
+
 
 const Home = () => {
   const sliderImages = [sliderImage1, sliderImage2, sliderImage3];
+  const isAuthenticated = false;
+  
 
   return (
     <div className=" bg-[#EFE9EB] flex items-center justify-center flex-col ">
@@ -36,11 +42,12 @@ const Home = () => {
               Explore the <span className="bg-pink-600 w-[120px]">World</span>{" "}
               with Us
             </h1>
-            <p className="text-white mt-4 z-10 max-w-xl text-center lg:text-lg sm:text-sm">
+            <p className="text-white mt-4 z-10 max-w-xl text-center lg:text-lg sm:text-sm my-10">
               Discover breathtaking destinations and unforgettable experiences.A
               journey of a thousand miles begins with a single step. Experience
               the beauty of the world like never before.
             </p>
+            <Button text="Book Now" link="/BookingPage" />
           </div>
         </div>
         <TravelInput />
@@ -70,13 +77,13 @@ const Home = () => {
       </section>
       <section>
         <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col lg:w-[1180px] ">
-          <motion.div 
-          animate={{ opacity: 1, y: 0 }}
-          initial={{ opacity: 0, y: 80 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-          viewport={{ once: true, amount: 0.3 }}
-          
-          className=" flex flex-col w-full  justify-center items-start  text-start mb-6">
+          <motion.div
+            animate={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 80 }}
+            transition={{ duration: 1, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.3 }}
+
+            className=" flex flex-col w-full  justify-center items-start  text-start mb-6">
             <h2 className="text-1xl font-bold text-[#2E2E2E]  mb-4 items-start border-l-2 pl-2 border-pink-600">
               Amaizing destinations
             </h2>
@@ -95,9 +102,9 @@ const Home = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
-      
-      
-      
+
+
+
       >
         <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start  flex flex-col ">
           <div className=" flex flex-col w-full justify-center items-start  text-start mb-6">
@@ -119,9 +126,9 @@ const Home = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
-      
-      
-      
+
+
+
       >
         <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10">
           <div className="">
@@ -142,9 +149,9 @@ const Home = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
-      
-      
-      
+
+
+
       >
         <div className="bg-[#EFE9EB] p-4 rounded-lg shadow-lg max-w-[1180px]  justify-between gap-5 items-start mt-10 flex flex-col mb-10 lg:w-[1180px]">
           <div className="">
@@ -171,8 +178,8 @@ const Home = () => {
         whileInView={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.3 }}
-      
-      className="max-w-full bg-[#2E2E2E] text-white mx-2 p-4 flex flex-col items-center justify-center mt-10">
+
+        className="max-w-full bg-[#2E2E2E] text-white mx-2 p-4 flex flex-col items-center justify-center mt-10">
         <FooterCard />
       </motion.footer>
     </div>
