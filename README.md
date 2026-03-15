@@ -141,11 +141,7 @@ npm test
 
 ---
 
-## 📸 Screenshots
 
-*Add screenshots of your app here*
-
----
 
 ## 🌍 Deployment
 
